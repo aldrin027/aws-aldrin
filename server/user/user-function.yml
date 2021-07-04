@@ -1,0 +1,27 @@
+userGet:
+  handler: user/httpGet.handler
+  events:
+    - httpApi:
+        path: '/user'
+        method: 'get'
+
+userPost:
+  handler: user/httpPost.handler
+  events:
+    - httpApi:
+        path: '/user/{id}'
+        method: 'post'
+
+userPut:
+  handler: user/httpPut.handler
+  events:
+    - httpApi:
+        path: '/user/{id}'
+        method: 'put'
+
+userDelete:
+  handler: user/httpDelete.handler
+  events:
+    - httpApi:
+        path: '/user/{id}'
+        method: 'delete'

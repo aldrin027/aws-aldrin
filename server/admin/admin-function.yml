@@ -1,0 +1,27 @@
+adminGet:
+  handler: httpGet
+  events:
+    - httpApi:
+        path: '/admin'
+        method: 'get'
+
+adminPost:
+  handler: httpPost
+  events:
+    - httpApi:
+        path: '/admin'
+        method: 'post'
+
+adminPut:
+  handler: httpPut
+  events:
+    - httpApi:
+        path: '/admin/edit/{id}'
+        method: 'put'
+
+adminDelete:
+  handler: httpDelete
+  events:
+    - httpApi:
+        path: '/admin/delete/{id}'
+        method: 'delete'

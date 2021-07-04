@@ -1,0 +1,9 @@
+{
+  "pathParameters": {
+    "id": "100"
+  },
+  "body": {
+    "fName": "Aldrin",
+    "lName": "Gauran"
+  }
+}
