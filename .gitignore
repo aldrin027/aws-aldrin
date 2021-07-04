@@ -1,0 +1,11 @@
+#root
+.terraform
+
+#Client
+client/node_modules
+client/.serverless
+client/coverage
+
+#Server
+server/node_modules
+server/.serverless
